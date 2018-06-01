@@ -17,6 +17,9 @@
 ## **提前准备**和**安装教程**内容请**仔细阅读**
 
 ## 提前准备 ##
+0. 根据自己的onedrive版本，修改**function.py**的**od_type**值，
+    - business_21v ：世纪互联版
+    - business ：国际版
 1. 需要自己注册Azure directory应用
     - 世纪互联版注册地址：https://portal.azure.cn/?whr=azure.com#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps
     - 国际版注册地址：https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps
