@@ -14,6 +14,8 @@
 1. linux环境
 2. Python2.7
 
+## **提前准备**和**安装教程**内容请**仔细阅读**
+
 ## 提前准备 ##
 1. 需要自己注册Azure directory应用
     - 世纪互联版注册地址：https://portal.azure.cn/?whr=azure.com#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps
@@ -39,6 +41,7 @@
 
 ## 安装教程 ##
 1. 首先将源码放到服务器某个目录下，假设当前网站目录是：/root/pyone
+    - 因`config/`文件夹上传不了，运行：`mkdir config`，创建一个文件夹
 2. 安装依赖环境：wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py && pip install -r requirement.txt
 3. 配置nginx环境：
 ```
@@ -84,3 +87,16 @@ server
 `python function.py UploadDir 本地目录 远程目录`
 
 比如：`python function.py UploadDir /root/video video` 即本本地的video目录下的所有文件上传到onedrive的video目录
+
+
+
+
+
+-------------------------
+-------------------------
+点击链接加入群聊【站长技术交流】：https://jq.qq.com/?_wv=1027&k=50L3j17
+
+-------------------------
+-------------------------
+Abbey最近准备做微信分享视频流量，有流量渠道的大佬欢迎合作，平台、视频都有了，就差流量
+
